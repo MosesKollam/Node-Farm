@@ -50,6 +50,7 @@ body {
     grid-template-columns: 1fr;
     width: 100vw;
     margin-bottom: 5rem;
+    position: relative;
 }
 
 .heading-title {
@@ -110,7 +111,7 @@ h1::before {
     z-index: -1;
     top: 0;
     left: 0;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -335,5 +336,22 @@ a {
 
     .card-contents:hover {
         transform: scale(1.07);
+    }
+
+    .heading-title>h1 {
+        font-size: 4rem;
+        transform: skewY(10deg);
+        position: relative;
+        color: white;
+
+    }
+    .heading{
+        top: 1rem;
+    }
+
+    h1::before {
+        background: var(--color-bg-tiles);
+        z-index: -1;
+        transform: skewY(-20deg);
     }
 }
