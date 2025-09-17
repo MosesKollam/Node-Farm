@@ -4,13 +4,13 @@ const fs = require('fs');
 const path_p = require('path');
 const slugify = require('slugify');
 
-const edited_html = require('.\\modules\\edit_html.js');
-const dataPath = 'D:\\complete-node-bootcamp-master (1)\\Files\\JSON\\data.json';
-const base_path = 'D:\\complete-node-bootcamp-master (1)\\Node Tutorials\\veg_farm';
+const edited_html = require('edit_html.js');
+const dataPath = 'data.json';
+// const base_path = 'D:\\complete-node-bootcamp-master (1)\\Node Tutorials\\veg_farm';
 
-const indexFile = fs.readFileSync(path_p.join(base_path, 'index.html'), 'utf-8');
-const index_card = fs.readFileSync(path_p.join(base_path, 'index-cards.html'), 'utf-8');
-const productFile = fs.readFileSync(path_p.join(base_path, 'product.html'), 'utf-8');
+const indexFile = fs.readFileSync('index.html', 'utf-8');
+const index_card = fs.readFileSync('index-cards.html', 'utf-8');
+const productFile = fs.readFileSync('product.html', 'utf-8');
 const sdata = fs.readFileSync(dataPath, 'utf-8');
 let jdata = JSON.parse(sdata);
 
@@ -55,4 +55,5 @@ fs.readFile(dataPath, 'utf-8', function (error, data) {
     server.listen(8000, '127.0.0.1', function () {
         console.log('Server Listening on http://127.0.0.1:8000');
     });
+
 });
