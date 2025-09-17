@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="product_css.css">
+    <title>Products</title>
+</head>
+
+<body>
+    <div class="heading-container">
+        <h1>Node Farm</h1>
+    </div>
+    <div class="outer-container">
+        <div class="product">
+            <div class="heading-image"><img src="{%ProductImage%}">
+                <div class="product-title">{%ProductTitle%}</div>
+            </div>
+            <a href="/overview" class="back">
+                <svg width="15px" height="15px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M20.6621 17C18.933 19.989 15.7013 22 11.9999 22C6.47703 22 1.99988 17.5228 1.99988 12C1.99988 6.47715 6.47703 2 11.9999 2C15.7013 2 18.933 4.01099 20.6621 7M11.9999 8L7.99995 12M7.99995 12L11.9999 16M7.99995 12H21.9999"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </a>
+            <div class="product-details">
+                <div class="origin">🌍{%origin%}</div>
+                <div class="vitamins">❤️ {%vitamins%}</div>
+                <div class="quantity">{%quantity%}</div>
+                <div class="price">💷 {%price%}</div>
+            </div>
+            <div class="add-to-cart">ADD TO SHOPPING CART 💷{%price%}/-</div>
+            <div class="about-product">{%AboutProduct%}</div>
+        </div>
+    </div>
+</body>
+
+</html>

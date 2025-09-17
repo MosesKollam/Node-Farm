@@ -1,0 +1,62 @@
+[
+  {
+    "id": 0,
+    "product-title": "Fresh Avocados",
+    "image": "avacado.jpg",
+    "icon": "🥑",
+    "origin": "Spain",
+    "vitamins": "Vitamin B, Vitamin K",
+    "quantity": "4 🥑 per 📦",
+    "price": "176.50",
+    "organic": true,
+    "about-product": "A ripe avocado yields to gentle pressure when held in the palm of the hand and squeezed. The fruit is not sweet, but distinctly and subtly flavored, with smooth texture. The avocado is popular in vegetarian cuisine as a substitute for meats in sandwiches and salads because of its high fat content. Generally, avocado is served raw, though some cultivars, including the common 'Hass', can be cooked for a short time without becoming bitter. It is used as the base for the Mexican dip known as guacamole, as well as a spread on corn tortillas or toast, served with spices."
+  },
+  {
+    "id": 1,
+    "product-title": "Red Apples",
+    "image": "apples.jpg",
+    "icon": "🍎",
+    "origin": "Portugal",
+    "vitamins": "Vitamin A, Calcium",
+    "quantity": "6 🍎 per 📦",
+    "price": "250.00",
+    "organic": false,
+    "about-product": "Crisp, juicy, and bursting with natural sweetness, our farm-fresh apples are the perfect healthy snack for any time of the day. With their vibrant skin in shades of red, green, or golden yellow, each bite delivers a refreshing crunch packed with vitamins, fiber, and antioxidants to keep you energized and feeling your best. Whether you enjoy them fresh, sliced into a salad, baked into a warm pie, or blended into juice, these apples bring nature’s goodness straight to your table. Freshly harvested and carefully selected for quality, they’re not just delicious—they’re a daily boost for your health."
+  },
+  {
+    "id": 2,
+    "product-title": "Apollo Bananas",
+    "image": "banana.jpg",
+    "icon": "🍌",
+    "origin": "Portugal",
+    "vitamins": "Vitamin C, Vitamin K",
+    "quantity": "10 🍌 per 📦",
+    "price": "150.00",
+    "organic": true,
+    "about-product": "Sweet, creamy, and naturally energizing, our ripe bananas are a wholesome snack you can enjoy anytime, anywhere. With their smooth golden-yellow skin and soft, delicious flesh inside, bananas are not only convenient but also packed with potassium, fiber, and essential vitamins that support heart health and boost energy. Perfect for breakfast smoothies, lunchbox treats, post-workout fuel, or baking into fluffy breads and cakes, these bananas bring both taste and nutrition in every bite. Easy to peel, easy to love—bananas are nature’s most portable superfood!"
+  },
+  {
+    "id": 3,
+    "product-title": "Grapes",
+    "image": "grapes.jpg",
+    "icon": "🍇",
+    "origin": "France",
+    "vitamins": "Vitamin A, Vitamin K",
+    "quantity": "500g 🍇 per📦",
+    "price": "300.00",
+    "organic": true,
+    "about-product": "Juicy, sweet, and bursting with flavor, our freshly harvested grapes are little bites of nature’s goodness. Their smooth, glossy skins hide tender, refreshing flesh that’s rich in antioxidants, vitamins, and hydration, making them a perfect guilt-free snack for any time of day. Whether you choose the deep purple, vibrant red, or crisp green varieties, each bunch delivers a burst of natural sweetness that kids and adults alike love. Ideal for snacking, adding to salads, blending into juices, or even freezing for a cool summer treat, grapes are as versatile as they are delicious. Fresh, healthy, and irresistibly tasty—our grapes are the perfect way to enjoy pure refreshment straight from the vine."
+  },
+  {
+    "id": 4,
+    "product-title": "Oranges",
+    "image": "oranges.jpeg",
+    "icon":"🍊",
+    "origin": "Germany",
+    "vitamins": "Vitamin C, Magnesium",
+    "quantity": "6 🍊 per 📦",
+    "price": "250.00",
+    "organic": false,
+    "about-product": "Bright, refreshing, and packed with sunshine, our juicy oranges are the ultimate blend of flavor and health. With their vibrant orange skin and zesty aroma, each fruit bursts with sweet-tangy juice rich in vitamin C, fiber, and natural antioxidants to boost immunity and refresh your day. Perfect for peeling and enjoying fresh, squeezing into a glass of pure juice, or adding zest to your favorite recipes, oranges are a delicious way to stay energized and healthy. Naturally sweet, wonderfully juicy, and always refreshing—our oranges bring a taste of sunshine to every bite."
+  }
+]
