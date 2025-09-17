@@ -3,8 +3,6 @@ const url = require('url');
 const fs = require('fs');
 const path_p = require('path');
 const slugify = require('slugify');
-
-const edited_html = require('edit_html.js');
 const dataPath = 'data.json';
 // const base_path = 'D:\\complete-node-bootcamp-master (1)\\Node Tutorials\\veg_farm';
 
@@ -13,6 +11,21 @@ const index_card = fs.readFileSync('index-cards.html', 'utf-8');
 const productFile = fs.readFileSync('product.html', 'utf-8');
 const sdata = fs.readFileSync(dataPath, 'utf-8');
 let jdata = JSON.parse(sdata);
+
+function edited_html(html_file, product) {
+    // generate slug from product-title
+    html_file = html_file.replace(/{%ProductTitle%}/g,product["product-title"]);
+    html_file = html_file.replace(/{%icon%}/g, product["icon"]);
+    html_file = html_file.replace(/{%quantity%}/g, product["quantity"]);
+    html_file = html_file.replace(/{%price%}/g, product["price"]);
+    html_file = html_file.replace(/{%ID%}/g, product["id"]);
+    html_file = html_file.replace(/{%AboutProduct%}/g, product["about-product"]);
+    html_file = html_file.replace(/{%vitamins%}/g, product["vitamins"]);
+    html_file = html_file.replace(/{%origin%}/g, product["origin"]);
+    html_file = html_file.replace(/{%ProductImage%}/g, product["image"]);
+
+    return html_file;
+}
 
 fs.readFile(dataPath, 'utf-8', function (error, data) {
     let contentType = 'text/plain';
@@ -57,3 +70,4 @@ fs.readFile(dataPath, 'utf-8', function (error, data) {
     });
 
 });
+
